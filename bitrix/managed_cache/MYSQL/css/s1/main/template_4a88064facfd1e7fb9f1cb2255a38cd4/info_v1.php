@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/local/templates/main/assets/dist/css/bootstrap.min.css" => "1607356212153111","/local/templates/main/assets/dist/css/blog.css" => "16104871012090",]; ?>

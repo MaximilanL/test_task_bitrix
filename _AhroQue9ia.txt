@@ -1,0 +1,22 @@
+
+	ISPmanager: https://serv.phpdev.org:1500 (alt url: https://135.181.165.50:1500/ispmgr )
+
+        SITE_ADDRESS: http://latyshevich.fortest.org/
+
+        SITE_ADMIN: latyshevic
+        SITE_ADMIN_PASSWORD: CAprjn5kvA
+
+        DBHost: localhost
+        Databases: latyshevic_db
+        Username: latyshevic_user
+        Password: rpgqk1DWQ7
+
+        SFTP
+        SFTPHost: 135.181.165.50
+        SFTPUser: latyshevic
+        SFTPPass: CAprjn5kvA
+	SFTPport: 22
+
+        ACCESS_URL: http://latyshevich.fortest.org/_AhroQue9ia.txt
+
+
