@@ -5,7 +5,7 @@ $arRes = CIBlockRSS::FormatArray($arRes);
 
 foreach ($arRes['item'] as $news){
     $arSelect = Array("ID", "NAME");
-    $arFilter = Array("IBLOCK_ID"=>IntVal(1), "NAME"=>$news['title']);
+    $arFilter = Array("IBLOCK_ID"=>IntVal(1), "=NAME"=>trim($news['title']));
     $res = CIBlockElement::GetList(Array(), $arFilter, false, Array(), $arSelect);
     if(!$ob = $res->GetNext())
     {
@@ -34,7 +34,7 @@ foreach ($arRes['item'] as $news){
             "IBLOCK_SECTION_ID" => false,
             "IBLOCK_ID" => 1,
             "PROPERTY_VALUES" => $PROP,
-            "NAME" => $news['title'],
+            "NAME" => trim($news['title']),
             "ACTIVE" => "Y",
             "PREVIEW_TEXT" => $news['description'],
             "DETAIL_TEXT" => "",
